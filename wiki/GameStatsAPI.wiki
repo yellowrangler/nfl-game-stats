@@ -18,7 +18,7 @@ alert("Away team is " + gameOne.awayTeam);
 *gameTime*
  Local time the game will played in 12-hour day format.  No am/pm.
 *quarter*
- During the game, the current quarter. Otherwise "Pregame", "Halftime, "Final" "final overtime".
+ During the game, the current quarter. Otherwise "Pregame", "Halftime, "Final", or "final overtime".
 *timeInQuarter*
  Time left in the quarter.
 *awayTeam*
