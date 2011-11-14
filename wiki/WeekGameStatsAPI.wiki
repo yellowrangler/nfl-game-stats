@@ -13,7 +13,7 @@ var gameOneStats = weekGameStats.gameStats[0];
 alert("Away team is " + gameOneStats.awayTeam);
 }}}
 
-== WeekGameStats Object ==
+=== WeekGameStats Object ===
 *week*
  Week of the season.
 *year*
@@ -45,7 +45,7 @@ alert("Away team is " + gameOneStats.awayTeam);
 *id*
  Id unique to this game.
 
-==== Team Object ====
+=== Team Object ===
 *abbrCityname*
  Abbreviated city name.
 *mascotName()*
