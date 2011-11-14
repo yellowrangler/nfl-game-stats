@@ -31,7 +31,7 @@ alert("Away team is " + gameOneStats.awayTeam);
 *gameStatus*
  During the game, the current quarter. Otherwise "Pregame", "Halftime, "Overtime", "Final", or "Final Overtime".
 *timeInQuarter*
- Time left in the quarter.
+ Time left in the quarter in MM:SS format.
 *awayTeam* [WeekGameStatsAPI#Team_Object Team Object]
  Away team. String value of the team's abbreviated city name.
 *awayTeamScore*
