@@ -19,8 +19,8 @@ alert("Away team is " + gameOneStats.awayTeam);
  Week of the season.
 *year*
  Year games are played.
-*gameStats*
- (GameStats object) Array of stats for all games of the week.
+*gameStats* [WeekGameStatsAPI#GameStats_Object GameStats object]
+ Array of stats for all games of the week.
 
 
 === !GameStats Object ===
