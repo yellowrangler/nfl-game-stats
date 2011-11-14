@@ -13,6 +13,7 @@ var gameOneStats = weekGameStats.gameStats[0];
 alert("Away team is " + gameOneStats.awayTeam);
 }}}
 
+
 === WeekGameStats Object ===
 *week*
  Week of the season.
@@ -20,6 +21,7 @@ alert("Away team is " + gameOneStats.awayTeam);
  Year games are played.
 *gameStats*
  (GameStats object) Array of stats for all games of the week.
+
 
 === GameStats Object ===
 *gameDay*
@@ -44,6 +46,7 @@ alert("Away team is " + gameOneStats.awayTeam);
  Boolean if team with possession is in the red zone.
 *id*
  Id unique to this game.
+
 
 === Team Object ===
 *abbrCityname*
