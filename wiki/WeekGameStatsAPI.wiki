@@ -14,7 +14,7 @@ alert("Away team is " + gameOneStats.awayTeam);
 }}}
 
 
-=== WeekGameStats Object ===
+=== !WeekGameStats Object ===
 *week*
  Week of the season.
 *year*
@@ -23,7 +23,7 @@ alert("Away team is " + gameOneStats.awayTeam);
  (GameStats object) Array of stats for all games of the week.
 
 
-=== GameStats Object ===
+=== !GameStats Object ===
 *gameDay*
  Abbreviated day of the game.
 *gameTime*
