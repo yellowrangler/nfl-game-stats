@@ -43,5 +43,5 @@ alert("Away team is " + gameOne.awayTeam);
 === Team Object ===
 *team.abbrCityname*
  Abbreviated city name.
-*team.getMascotName()*
+*team.mascotName()*
  Mascot's name.
