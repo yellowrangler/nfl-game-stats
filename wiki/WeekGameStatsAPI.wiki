@@ -46,10 +46,12 @@ alert("Away team is " + gameOneStats.awayTeam);
  Boolean if team with possession is in the red zone.
 *id*
  Id unique to this game.
+*gameType*
+ Type of game; REG, WC, DIV, CON, PRO, SB.
 
 
 === Team Object ===
 *abbrCityname*
  Abbreviated city name.
-*mascotName()*
+*mascotName*
  Mascot's name.
