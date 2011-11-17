@@ -37,7 +37,7 @@ alert("Away team is " + gameOneStats.awayTeam);
 *awayTeamScore*
  Away team's score.
 *homeTeam* [WeekGameStatsAPI#Team_Object Team Object]
-  Team Home team. String value of the team's abbreviated city name.
+  Home team. String value of the team's abbreviated city name.
 *homeTeamScore*
  Home team's score.
 *teamWithPossession*
