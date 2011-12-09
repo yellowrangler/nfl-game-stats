@@ -46,6 +46,7 @@ function getGameStats(xmlDoc) {
       games[i].getAttribute("hs"),
       games[i].getAttribute("p"),
       games[i].getAttribute("rz"),
+      games[i].getAttribute("ga"),
       games[i].getAttribute("gt"),
       games[i].getAttribute("eid")
     ));
@@ -56,7 +57,7 @@ function getGameStats(xmlDoc) {
 /**
  * Class containing stats for an NFL game.
  */
-function GameStats(gameDay, gameTime, abbrGameStatus, timeInQuarter, awayTeam, awayTeamMascot, awayTeamScore, homeTeam, homeTeamMascot, homeTeamScore, teamWithPossession, isInRedZone, gameType, id) {
+function GameStats(gameDay, gameTime, abbrGameStatus, timeInQuarter, awayTeam, awayTeamMascot, awayTeamScore, homeTeam, homeTeamMascot, homeTeamScore, teamWithPossession, isInRedZone, goalAlert, gameType, id) {
   this.gameDay = gameDay;
   this.gameTime = getOffsetGameTime(gameTime);
   this.gameStatus = getGameStatus(abbrGameStatus);
@@ -67,6 +68,7 @@ function GameStats(gameDay, gameTime, abbrGameStatus, timeInQuarter, awayTeam, a
   this.homeTeamScore = homeTeamScore;
   this.teamWithPossession = teamWithPossession;
   this.isInRedZone = isInRedZone;
+  this.goalAlert = goalAlert;
   this.gameType = gameType;
   this.id = id;
 }
