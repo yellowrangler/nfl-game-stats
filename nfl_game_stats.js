@@ -57,7 +57,7 @@ function getGameStats(xmlDoc) {
 /**
  * Class containing stats for an NFL game.
  */
-function GameStats(gameDay, gameTime, abbrGameStatus, timeInQuarter, awayTeam, awayTeamMascot, awayTeamScore, homeTeam, homeTeamMascot, homeTeamScore, teamWithPossession, isInRedZone, goalAlert, gameType, id) {
+function GameStats(gameDay, gameTime, abbrGameStatus, timeInQuarter, awayTeam, awayTeamMascot, awayTeamScore, homeTeam, homeTeamMascot, homeTeamScore, teamWithPossession, isInRedZone, gameAlert, gameType, id) {
   this.gameDay = gameDay;
   this.gameTime = getOffsetGameTime(gameTime);
   this.gameStatus = getGameStatus(abbrGameStatus);
@@ -68,7 +68,7 @@ function GameStats(gameDay, gameTime, abbrGameStatus, timeInQuarter, awayTeam, a
   this.homeTeamScore = homeTeamScore;
   this.teamWithPossession = teamWithPossession;
   this.isInRedZone = isInRedZone;
-  this.goalAlert = goalAlert;
+  this.gameAlert = gameAlert;
   this.gameType = gameType;
   this.id = id;
 }
