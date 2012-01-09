@@ -50,7 +50,7 @@ alert("Away team is " + gameOneStats.awayTeam);
 *id*
  Id unique to this game.
 *gameType*
- Type of game; REG, WC, DIV, CON, PRO, SB.
+ Type of game; REG (Regular Season), WC (Wild Card), DIV (Division), CON (Conference), PRO (Pro Bowl), SB (Super Bowl).
 
 
 === Team Object ===
