@@ -45,6 +45,7 @@ alert("Away team is " + gameOneStats.awayTeam);
 *gameAlert*
  If goal for the team with possession has been scored; FG or TD.
  If interception occurred and now possession has changed; INT.
+ If saftey; SAF.
 *isInRedZone*
  Boolean if team with possession is in the red zone.
 *id*
